@@ -1,0 +1,3 @@
+FROM tomcat:8.0.20-jre
+COPY target/app.war /user/local/tomcat/webapps/app.war
+EXPOSE : 8080
